@@ -1,0 +1,69 @@
+/* Just the HMTL styling above 600px with plain CSS*/
+
+@media (min-width:600px) {
+    body {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    section {
+        padding: 1.4%;
+    }
+
+    [data-key-word-input] {
+        padding: 3% 2%;
+        font-size: 18px;
+    }
+
+    [data-key-word-input]:focus {
+        padding: 3% 2%;
+        font-size: 18px;
+    }
+
+    [data-key-word-button] {
+        padding: 0 3%;
+    }
+
+    [data-key-word-results] {
+        padding: 1.4%;
+        max-width: initial;
+        max-height: initial;
+    }
+
+    [data-error-window] [data-error-box] {
+        padding: 1%;
+    }
+
+    [data-error-window] [data-error-box] header {
+        display: flex;
+        align-items: center;
+        justify-content: initial;
+        flex-direction: row;
+    }
+
+    [data-error-window] [data-error-box] header ion-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: initial;
+        font-size: 50px;
+    }
+
+    [data-error-window] [data-error-box] [data-error-span] {
+        padding: initial;
+        text-align: initial;
+        padding: 2% 0;
+    }
+
+    [data-error-window] [data-error-box] [data-error-button] {
+        width: initial;
+        padding: initial;
+        padding: 1% 2%;
+        border-radius: 10px;
+        background-color: #FF9900;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+    }
+}
